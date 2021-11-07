@@ -1,0 +1,25 @@
+.articles-wrap {
+  .title {
+    display: flex;
+    justify-content: space-between;
+    .title-text{
+      font-size: 24px;
+      font-weight: bold;;
+    }
+    .all{
+      cursor: pointer;
+      font-size: 16px;
+      color: #558cff;
+    }
+  }
+  .info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .total{
+      span{
+        margin-left: 5px;
+      }
+    }
+  }
+}

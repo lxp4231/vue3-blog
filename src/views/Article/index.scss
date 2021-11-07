@@ -1,0 +1,24 @@
+.article-wrap {
+  padding: 20px 10px;
+
+  .markdown {
+    margin: 40px 0;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: #cccccc;
+  }
+  .next_prev {
+    display: flex;
+    justify-content: space-between;
+    .prev,
+    .next {
+      cursor: pointer;
+    }
+    .prev-title,
+    .next-title {
+      margin-left: 10px;
+      color: #e06c1e;
+    }
+  }
+}

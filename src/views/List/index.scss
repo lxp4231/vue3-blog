@@ -1,0 +1,33 @@
+.list-wrap {
+  height: 100%;
+  padding: 20px 0;
+  box-sizing: border-box;
+  .breadcrumb {
+    padding: 20px 0;
+  }
+  .picker {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    .select {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      height: 30px;
+      margin-right: 10px;
+    }
+    .sort {
+      line-height: 32px;
+      display: flex;
+      align-items: center;
+
+      .sort-item {
+        margin-top: 10px;
+        margin-left: 10px;
+      }
+      .sort-item:first-child {
+        margin-left: 0;
+      }
+    }
+  }
+}

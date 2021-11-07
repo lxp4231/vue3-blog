@@ -1,0 +1,8 @@
+@import './default.scss';
+@import './antd.scss';
+@import './normalize.css';
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

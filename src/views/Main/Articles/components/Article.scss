@@ -1,0 +1,39 @@
+.article-wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  cursor: pointer;
+  .title {
+    font-size: 18px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .info {
+    display: flex;
+    justify-content: flex-start;
+    .article-date,
+    .article-cate {
+      margin-left: 10px;
+      span {
+        margin-left: 5px;
+      }
+    }
+    .article-date{
+      margin-left: 0;
+    }
+  }
+  .info-more {
+    display: flex;
+    justify-content: flex-end;
+    color: #cccccc;
+    .article-view,
+    .article-like,
+    .article-comment {
+      margin-left: 10px;
+      span {
+        margin-left: 5px;
+      }
+    }
+  }
+}

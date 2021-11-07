@@ -1,0 +1,21 @@
+.home-wrap {
+  position: relative;
+  background-image: url('../assets//img/bg01.png');
+
+  .content {
+    min-height: calc(100vh - 140px);
+    max-width: 1400px;
+    margin: 0 auto ;
+    #kobe {
+      width: 240px;
+      height: 200px;
+      position: absolute;
+      bottom: 200px;
+      right: 100px;
+      z-index: -988;
+    }
+  }
+  .footer{
+    
+  }
+}

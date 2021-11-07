@@ -1,0 +1,42 @@
+@mixin baseModule($width) {
+  box-sizing: border-box;
+  padding: 20px;
+  width: $width;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 3px #eeeeee;
+}
+.main-wrap {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding: 20px;
+  .info {
+    @include baseModule(30%);
+  }
+  .ad {
+    @include baseModule(calc(70% - 20px));
+    margin-left: 20px;
+  }
+  .marjo {
+    @include baseModule(80%);
+    height: 350px;
+    max-height: 350px;
+    margin-top: 20px;
+  }
+  .statistics {
+    @include baseModule(calc(20% - 20px));
+    margin: 20px 0 0 20px;
+  }
+  .comment {
+    @include baseModule(30%);
+    margin-top: 20px;
+    height: 200px;
+    max-height: 200px;
+  }
+  .articles {
+    @include baseModule(calc(70% - 20px));
+    align-self: flex-start;
+    margin: 20px 0 20px 20px;
+  }
+}

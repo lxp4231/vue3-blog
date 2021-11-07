@@ -1,0 +1,52 @@
+.article-categories-wrap {
+  padding: 40px 20px;
+  .btn {
+    margin: 0 10px;
+  }
+  .editable-cell {
+    position: relative;
+    .editable-cell-input-wrapper,
+    .editable-cell-text-wrapper {
+      padding-right: 24px;
+    }
+    .editable-cell-text-wrapper {
+      padding: 5px 24px 5px 5px;
+    }
+
+    .editable-cell-icon,
+    .editable-cell-icon-check {
+      position: absolute;
+      right: 0;
+      width: 20px;
+      cursor: pointer;
+    }
+
+    .editable-cell-icon {
+      line-height: 18px;
+      display: none;
+    }
+
+    .editable-cell-icon-check {
+      line-height: 28px;
+    }
+
+    .editable-cell-icon:hover,
+    .editable-cell-icon-check:hover {
+      color: #108ee9;
+    }
+  }
+  .editable-cell:hover .editable-cell-icon {
+    display: inline-block;
+  }
+  .addBtn,
+  .paging {
+    padding: 20px 0;
+    // float: right;
+    display: flex;
+    justify-content: flex-end;
+    .ipt{
+      width: 200px;
+      margin: 0 20px;
+    }
+  }
+}

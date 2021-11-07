@@ -1,0 +1,20 @@
+.articleList-wrap {
+  .table-top {
+    margin-top: 20px;
+  }
+  .table {
+    margin-top: 20px;
+  }
+  .paging {
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-end;
+    .ipt{
+      width: 200px;
+      margin: 0 20px;
+    }
+  }
+  .btn{
+    margin: 0 10px;
+  }
+}

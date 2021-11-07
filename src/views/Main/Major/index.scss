@@ -1,0 +1,44 @@
+.major-wrap {
+  .title {
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  .major-info {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    color: #cccccc;
+    font-size: 14px;
+    .major-date,.major-cate,.major-view {
+      margin-left: 20px;
+      span {
+        margin-left: 10px;
+      }
+    }
+    .major-tags{
+      margin-left: 20px;
+    }
+  }
+  .content{
+    height: 120px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    line-clamp: 6;
+    -webkit-box-orient: vertical;
+  }
+  .all{
+    float: right;
+    cursor: pointer;
+    span{
+      color:#558cff;
+      font-weight: bold;
+    }
+  }
+}
